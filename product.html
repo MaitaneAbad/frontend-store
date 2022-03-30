@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frontend Store</title>
+		<link rel="preload" href="./css/normalize.css" as="style" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preload" href="./css/main.css" as="style" />
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<header class="header">
+			<a href="./index.html">
+				<img class="header__logo" src="./img/logo.png" alt="Logotipo" />
+			</a>
+		</header>
+		<nav class="navbar">
+			<a class="navbar__link" href="./index.html">Tienda</a>
+			<a class="navbar__link navbar__link--active" href="./us.html">Nosotros</a>
+		</nav>
+		<main class="container">
+			<h1>React JS</h1>
+			<div class="tshirt">
+        <img class="tshirt__img" src="./img/3.jpg" alt="Imagen producto">
+        <div class="tshirt__contain">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum quis recusandae velit rem consectetur repudiandae autem, esse natus. Fugiat provident dolorem sequi laboriosam maiores a facere nisi numquam eveniet!</p>
+      <form class="form">
+        <select class="form__area">
+          <option disabled selected>-- Seleccionar talla --</option>
+          <option>S</option>
+          <option >M</option>
+          <option >L</option>
+          <option >XL</option>
+        </select>
+        <input class="form__area" type="number" min="1" placeholder="Cantidad" >
+        <input class="form__submit" type="submit" value="Agregar al carrito">
+      </form>
+        </div>
+      </div>
+			</div>
+		</main>
+		<footer class="footer">
+			<p class="footer__text">
+				Front-end store - todos los derechos reservados 2022.
+			</p>
+		</footer>
+	</body>
+</html>
